@@ -11,7 +11,6 @@ interface Task {
 }
 
 export function TaskList() {
-  const [task, setTask] = useState<Task>()
   const [tasks, setTasks] = useState<Task[]>([]);
   const [newTaskTitle, setNewTaskTitle] = useState('');
 
